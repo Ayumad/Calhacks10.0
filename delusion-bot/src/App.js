@@ -5,7 +5,9 @@ import ChatBox from './ChatBox';
 function App() {
   return (
     <div className="App">
-
+      <div className='Header'>
+        <h1 id='productName'>Delusion Bot</h1>
+      </div>
       <ChatBox />
     </div>
   );
