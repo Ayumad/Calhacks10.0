@@ -20,6 +20,9 @@ function ChatBox() {
 
   return (
     <div className="chat-box">
+      <header>
+        Welcome to Delusion-Bot
+      </header>
       <div className="messages">
         {messages.map((msg, index) => (
           <Message key={index} sender={msg.sender} text={msg.text} />
