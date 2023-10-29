@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div className='Header'>
         <h1 id='productName'>Delusion Bot</h1>
+        <h3>Your AI Delusional!</h3>
       </div>
       <ChatBox />
     </div>
@@ -14,3 +15,4 @@ function App() {
 }
 
 export default App;
+q
